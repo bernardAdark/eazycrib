@@ -14,7 +14,7 @@ h2 {
 	text-align: center;
 }
 .navbar-default {
-    background-color: #800080; 
+    background-color: #6C7A89; 
 }
 .navbar-default .navbar-brand {
     color: #fff;
@@ -58,7 +58,7 @@ h2 #signup-success #signup-error {
     right: 0;
     left: 0;
 	width: 1300px;
-	background-color: #3a001a;
+	background-color: #6C7A89;
 	padding: 20px;
 	margin: 0;
 }
