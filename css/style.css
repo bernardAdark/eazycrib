@@ -1,0 +1,66 @@
+
+body {
+	height: 600px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	line-height: 1.715;
+	background-color: #fff;
+	color: #666;
+	overflow-x: hidden;
+	max-width: 100%;
+}
+h2 {
+	color: #fff;
+	text-align: center;
+}
+.navbar-default {
+    background-color: #800080; 
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+}
+
+.allowance {
+	position: relative;
+	top: 0;
+	left: -230px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.spacing {
+	width: 1600px; 
+	height: 425px;
+}
+.signup-move {
+	position: relative;
+	top: -15px;
+	left: 320px;
+}
+.btn-success {
+	background-color: #ff4500;
+	border-color: #ff6700;
+}
+
+.inforesult {
+	position: relative;
+	top: 0px;
+	left: -380px;
+}
+
+h2 #signup-success #signup-error {
+	color: white;
+}
+
+.bgcolor {
+	position: fixed;
+    right: 0;
+    left: 0;
+	width: 1300px;
+	background-color: #3a001a;
+	padding: 20px;
+	margin: 0;
+}
+
+
