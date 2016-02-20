@@ -21,23 +21,25 @@ h2 {
     font-size: 25px;
 }
 
-.allowance {
-	position: relative; 
-	top: 0;
-	left: -230px;
-	margin-top: 60px;
-	margin-bottom: 50px;
+.allow{
+	margin-top: 50px;
+	min-width: 100%;
+}
+img{
+	min-width: 100%;
+
 }
 
 .spacing {
-	width: 1600px; 
-	height: 425px;
+   width: 100%; 
+   
+	
 }
-.signup-move {
+/*.signup-move {
 	position: relative;
 	top: -15px;
 	left: 320px;
-}
+}*/
 .btn-success {
 	background-color: #ff4500;
 	border-color: #ff6700;
@@ -63,4 +65,89 @@ h2 #signup-success #signup-error {
 	margin: 0;
 }
 
+@media screen and (max-width: 900px) {   
+    .bgcolor{
+   	margin-left: -50px;
+   	margin-top: 30px;
+    }
 
+    
+    
+    
+   .allow{
+   	height:400px;
+   	min-width: 130%;
+   	margin-left: -60px;
+   	margin-right: 0px;
+   	margin-top: 50px;
+   }
+
+   .em{
+   	margin-left: 20px;
+   }
+   .but{
+   	margin-left: 20px;
+   }
+   
+   }
+
+@media screen and (max-width: 880px) {
+    .allow{
+   	height:300px;  
+
+   }
+   .but{
+   	margin-left: -10px;
+   }
+
+   
+ }
+
+@media screen and (max-width: 580px) {
+    .bgcolor{
+    	margin-left:-85px;
+
+    }
+    
+   .allow{
+   	height:230px;
+   }
+
+ .but {
+ 	margin-left: -100px;
+ }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .bgcolor{
+    	margin-left:-70px;
+
+    }
+    
+   .allow{
+   	height:180px;
+   	min-width: 142%;
+   	margin-left: -50px;
+   	margin-right: 0px;
+   }
+
+ .but {
+ 	margin-left: -200px;
+ }
+ .em{
+ 	margin-left: 40px;
+ }
+
+  .inforesult{
+  	margin-left: -200px;
+  }
+}
+
+
+body{
+	margin: 0px;
+
+
+}
