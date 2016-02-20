@@ -131,7 +131,7 @@ h2 #signup-success #signup-error {
    	min-width: 130%;
    	margin-left: -50px;
    	margin-right: 0px;
-    margin-top: 80px;
+   
    }
 
 .but {
@@ -141,8 +141,8 @@ h2 #signup-success #signup-error {
 }
  
  .em{
-  position: relative;
-  top:-20px;
+   margin-top: -20px;
+  
  }
 
   .bgcolor{
