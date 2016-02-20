@@ -110,12 +110,11 @@ h2 #signup-success #signup-error {
    }
 
  .but {
- 	margin-left: 1px;
-  width:100px;
+  margin-top: 10px;	
  }
   .em{
-  margin-left: 80px;
-  width: 280px;
+  
+  
  }
 
 
@@ -129,32 +128,37 @@ h2 #signup-success #signup-error {
     
    .allow{
    	height:180px;
-   	min-width: 142%;
+   	min-width: 130%;
    	margin-left: -50px;
    	margin-right: 0px;
+    margin-top: 80px;
    }
 
- .but {
- 	margin-left: 1px;
-  width:100px;
-
- }
+.but {
+  position: relative;
+  left: -225px;
+  top:30px;
+}
+ 
  .em{
-  width: 250px;
-  margin-left: 50px;
+  position: relative;
+  top:-20px;
  }
 
-  .inforesult{
-  	margin-left: -200px;
+  .bgcolor{
+  	padding-bottom: 50px;
 
   }
   #signup-success, #signup-error{
     font-size: 1em;
   }
+  .navbar-default {
+    padding: 10px;
+}
 }
 
 
-body{
+body
 	margin: 0px;
 
 
