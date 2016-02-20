@@ -181,6 +181,7 @@ h2 #signup-success #signup-error {
   }
   #signup-success, #signup-error{
     font-size: 1em;
+    margin-left: -120px;
   }
  
 }
