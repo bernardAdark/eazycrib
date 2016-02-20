@@ -187,8 +187,9 @@ h2 #signup-success #signup-error {
 }
 
 
-body
+body{
 	margin: 0px;
+}
 
 
 }
