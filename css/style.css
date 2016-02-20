@@ -71,9 +71,7 @@ h2 #signup-success #signup-error {
 
 
 @media screen and (max-width: 1000px) { 
-  body{
-    background-color: blue;
-  }  
+   
     .bgcolor{
    	margin-left: -50px;
    	margin-top: 30px;
@@ -97,9 +95,7 @@ h2 #signup-success #signup-error {
    }
 
 @media screen and (max-width: 840px) {
-  body{
-    background-color: green;
-  }
+ 
     .allow{
    	height:300px;  
 
