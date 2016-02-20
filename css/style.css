@@ -65,15 +65,19 @@ h2 #signup-success #signup-error {
 	padding: 20px;
 	margin: 0;
 }
+.em{
+  margin-left: 200px;
+}
 
-@media screen and (max-width: 900px) {   
+
+@media screen and (max-width: 1000px) { 
+  body{
+    background-color: blue;
+  }  
     .bgcolor{
    	margin-left: -50px;
    	margin-top: 30px;
-    }
-
-    
-    
+    } 
     
    .allow{
    	height:400px;
@@ -84,7 +88,7 @@ h2 #signup-success #signup-error {
    }
 
    .em{
-   	margin-left: 100px;
+   	margin-left: -1px;
    }
    .but{
    	margin-left: 0px;
@@ -92,11 +96,31 @@ h2 #signup-success #signup-error {
    
    }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 840px) {
+  body{
+    background-color: green;
+  }
     .allow{
    	height:300px;  
 
    }
+
+   .but {
+  position: relative;
+  left: -340px;
+  top:40px;
+}
+ 
+ .em{
+  margin-left: 200px;
+   margin-top: -30px;
+  
+ }
+
+  .bgcolor{
+    padding-bottom: 70px;
+
+  } 
  }
 
 @media screen and (max-width: 580px) {
@@ -110,12 +134,21 @@ h2 #signup-success #signup-error {
    }
 
  .but {
-  margin-top: 10px;	
- }
-  .em{
+  position: relative;
+  left: -340px;
+  top:40px;
+}
+ 
+ .em{
+  margin-left: 200px;
+   margin-top: -30px;
   
-  
  }
+
+  .bgcolor{
+    padding-bottom: 70px;
+
+  } 
 
 
 }
@@ -136,25 +169,24 @@ h2 #signup-success #signup-error {
 
 .but {
   position: relative;
-  left: -225px;
-  top:30px;
+  left: -340px;
+  top:40px;
 }
  
  .em{
-   margin-top: -20px;
+   margin-top: -30px;
+   margin-left: 60px;
   
  }
 
   .bgcolor{
-  	padding-bottom: 50px;
+  	padding-bottom: 70px;
 
   }
   #signup-success, #signup-error{
     font-size: 1em;
   }
-  .navbar-default {
-    padding: 10px;
-}
+ 
 }
 
 
