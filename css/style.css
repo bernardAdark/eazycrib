@@ -19,6 +19,7 @@ h2 {
 .navbar-default .navbar-brand {
     color: #fff;
     font-size: 25px;
+    font-family: Georgia;
 }
 
 .allow{
@@ -83,10 +84,10 @@ h2 #signup-success #signup-error {
    }
 
    .em{
-   	margin-left: 20px;
+   	margin-left: 100px;
    }
    .but{
-   	margin-left: 20px;
+   	margin-left: 0px;
    }
    
    }
@@ -96,11 +97,6 @@ h2 #signup-success #signup-error {
    	height:300px;  
 
    }
-   .but{
-   	margin-left: -10px;
-   }
-
-   
  }
 
 @media screen and (max-width: 580px) {
@@ -114,7 +110,12 @@ h2 #signup-success #signup-error {
    }
 
  .but {
- 	margin-left: -100px;
+ 	margin-left: 1px;
+  width:100px;
+ }
+  .em{
+  margin-left: 80px;
+  width: 280px;
  }
 
 
@@ -134,14 +135,21 @@ h2 #signup-success #signup-error {
    }
 
  .but {
- 	margin-left: -200px;
+ 	margin-left: 1px;
+  width:100px;
+
  }
  .em{
- 	margin-left: 40px;
+  width: 200px;
+  margin-left: 50px;
  }
 
   .inforesult{
   	margin-left: -200px;
+
+  }
+  #signup-success, #signup-error{
+    font-size: 1em;
   }
 }
 
