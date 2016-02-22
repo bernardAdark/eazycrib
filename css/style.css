@@ -1,6 +1,6 @@
 
 body {
-	height: 600px;
+	min-height: 600px;
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
   max-width: 100%;
@@ -99,7 +99,7 @@ h2 #signup-success #signup-error {
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   .signup-move{
-      padding-left: 20%;
+      padding-left: 5%;
     }
     #signup-button {
       display: block;
@@ -109,13 +109,16 @@ h2 #signup-success #signup-error {
     #text-input {
       width: 80%;
       text-align: center;
+    }
+    .spacing {
+      height: 300px;
     }
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
     .signup-move{
-      padding-left: 20%;
+      padding-left: 5%;
     }
     #signup-button {
       display: block;
@@ -125,5 +128,9 @@ h2 #signup-success #signup-error {
     #text-input {
       width: 80%;
       text-align: center;
+    }
+
+    .spacing {
+      height: 300px;
     }
 }
