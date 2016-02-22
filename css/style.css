@@ -47,7 +47,7 @@ h2 #signup-success #signup-error {
 }
 
 .bgcolor {
-	position: fixed;
+	position: absolute;
   right: 0;
   left: 0;
 	width: 100%;
