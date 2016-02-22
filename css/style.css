@@ -1,6 +1,6 @@
 
 body {
-	height: 700px;
+	height: 600px;
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
   max-width: 100%;
@@ -101,6 +101,7 @@ h2 #signup-success #signup-error {
 @media (max-width: 767px) {
   .signup-move{
       padding-left: 5%;
+      margin-bottom: 
     }
     #signup-button {
       display: block;
@@ -127,6 +128,9 @@ body{
 @media (max-width: 480px) {
     .signup-move{
       padding-left: 5%;
+      position: relative;
+      top: -20px;
+      left: 0;
     }
     #signup-button {
       display: block;
@@ -137,8 +141,6 @@ body{
       width: 80%;
       text-align: center;
     }
-
-
     .spacing {
       height: 250px;
     }
