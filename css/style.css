@@ -117,13 +117,6 @@ h2 #signup-success #signup-error {
     }
 }
 
-
-body{
-	margin: 0px;
-}
-
-
-
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
     .signup-move{
@@ -134,7 +127,7 @@ body{
     }
     #signup-button {
       display: block;
-      margin-top: 10px;
+      margin-top: 20px;
       width: 80%;
     }
     #text-input {
