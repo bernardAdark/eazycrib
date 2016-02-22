@@ -115,6 +115,13 @@ h2 #signup-success #signup-error {
     }
 }
 
+
+body{
+	margin: 0px;
+}
+
+
+
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
     .signup-move{
@@ -130,7 +137,9 @@ h2 #signup-success #signup-error {
       text-align: center;
     }
 
+
     .spacing {
       height: 250px;
     }
+
 }
