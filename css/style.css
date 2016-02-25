@@ -138,5 +138,8 @@ h2 #signup-success #signup-error {
     .spacing {
       height: 250px;
     }
-
+   
+   .num{
+    margin-left: -500px
+   }
 }
